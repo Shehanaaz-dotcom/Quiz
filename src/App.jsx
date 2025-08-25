@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter basename={"/Quiz/"}>
     <Routes>
    
-          <Route exact path="/" element={<FIrst/>}/>
+          <Link><Route exact path="/" element={<FIrst/>}/></Link>
         
-         <Route path="/Second" element={<Second/>}/>
+       <Link>  <Route path="/Second" element={<Second/>}/></Link>
 
     </Routes>
  </BrowserRouter>
