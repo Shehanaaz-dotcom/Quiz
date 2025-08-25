@@ -9,7 +9,7 @@ import Second from './Second'
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"/Quiz"}>
     <Routes>
    
           <Route path="/" element={<FIrst/>}/>
